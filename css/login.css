@@ -1,0 +1,147 @@
+@charset "utf-8";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0; padding:0;}
+body{font-size:12px;font-family: 'microsoft YaHei';}
+img{border:none;}
+li{list-style: none;}
+input,select,textarea{outline: none;border: none;background: none;}
+textarea{resize: none;}
+a{text-decoration: none;color: #656565;}
+
+.wrapper{
+	width: 100%;
+}
+.wrapper .head{
+	width: 990px;
+	margin: 20px auto;	
+}
+.head .logo{
+	padding-top: 10px; 
+}
+.blank{
+	clear: both;
+}
+.wrapper .register{
+	width: 990px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.register .boxleft{
+	float: left;
+	height: 424px;
+	text-align: center;
+	width: 40%;
+}
+.register .boxleft span{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;	
+}
+.register .boxleft img{
+	vertical-align: middle;	
+}
+.register .boxright{
+	float: left;
+	height: 424px;
+    width: 450px;
+    margin: 0 72px;
+}
+.register .boxright .bbb{
+	margin: 0 auto;
+	width: 85%;
+    background: #fafafa;
+    border: 1px solid #eee;
+    box-shadow: 3px 3px #F5F5F5;    
+}
+.register .boxright form{
+	
+	width: 80%;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.register .boxright input{
+	width: 220px;
+    color: #aaa;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    margin-top: 15px;
+    height: 22px;
+    line-height: 22px;
+}
+.register .boxright input[name=username]{
+	margin-top: 35px;
+}
+.register .boxright input[name=yzm]{
+	width: 65px;
+}
+.register .boxright button{
+	background: url(../img/scn04.png) no-repeat 0 -198px;
+    width: 89px;
+    height: 38px;
+    text-indent: 0;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+form a{
+	margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 12px;
+}
+form a:hover{
+	text-decoration: underline;
+	color: red;
+}
+form p{
+	color: #999;
+    padding: 35px 0 25px;
+    font-size: 12px;
+}
+form p a {
+	text-decoration: underline;
+	color: orange;
+}
+.boxright .qt{
+	margin-left: 33px;
+}
+.boxright .qt h3{
+	color: #999;
+	font-size: 12px;
+	font-weight: 100;
+	margin: 12px auto 5px;
+}
+.boxright .qt .qsr{
+	width: 235px;
+	float: left;
+}
+.boxright .qt a{
+	float: left;
+	display: block;
+	width: 115px;
+	margin-top: 5px
+}
+.boxright .qt .tb{
+	float: left;
+    padding-top: 5px;
+    width: 115px;
+    height: 20px;
+}
+.foot{
+	width: 990px;
+	margin: 0 auto;
+	border-top: 2px solid #CE3C3B;
+}
+.bot2 .bot2_row {
+	text-align: center;
+    padding: 20px 0;
+}
+.bot2 .bot2_row i{
+	font-size: 20px;
+    color: #c00;
+    font-weight: 700;
+}
+.bot2 .bot2_row a:hover{
+	text-decoration: underline;
+	color: red;
+}

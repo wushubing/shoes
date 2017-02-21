@@ -1,0 +1,749 @@
+/*头部导航*/
+/*.wrapper{
+	width: 100%;
+    background: url(../img/587f37f8N689da5c7.jpg)repeat;
+}
+.head{
+	height: 102px;
+}
+.topnav #ul_top li{
+	height: 16px;
+	line-height: 16px;
+	float: left;
+	padding:  0 15px;
+	border-right:1px solid #d5d5d5;
+}
+.topnav #ul_top #li3 i{
+	background: url(../img/head_2013_v2.png)no-repeat -366px 1px;
+	position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -15px;
+}
+.topnav #ul_top #li5 i{
+	background: url(../img/head_2013_v2.png)no-repeat -12px -35px;
+	position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -22px;
+}
+.topnav #ul_top li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.topnav #li1 a{
+	color: #ff6600;
+}
+.topnav ul{
+	float: right;
+	padding-top: 4px;
+	margin:0 auto; 
+}
+.topnav{
+	width: 990px;
+	margin: 0 auto;
+	height: 25px;
+	background: #eee;
+}
+.top{
+	width: 990px;
+	margin: 0 auto;
+}
+.top .logo{
+	float: left;
+	padding-top: 10px;
+}
+.sub_help{
+	width: 535px;
+	height: 68px;
+	float: right;
+	padding-top: 16px;
+}
+.searcher{
+	float: left;
+}
+.searcher .sput {
+    width: 272px;
+    height: 26px;
+    overflow: hidden;
+    float: left;
+    border: 2px solid #d5d5d5;
+    border-right: 0;
+    }
+    .searcher .sbut {
+    width: 65px;
+    height: 30px;
+    background: #444;
+    float: left;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+.searcher .hotsearch {
+	float: left;
+    height: 28px;
+    line-height: 28px;
+    color: #ccc;
+    width: 340px;
+    overflow: hidden;
+}
+.shopping button{
+	float: right;
+	text-indent: 36px;
+	margin-top: 4px;
+	line-height: 34px;
+	width: 126px;height: 34px;
+	border-radius: 3px;
+	border: none;
+	background: url(../img/head_cart_bg.gif)no-repeat 0 0;
+}
+.shopping button:hover{
+    background: url(../img/head_cart_bg.gif)no-repeat 0 -34px; 
+}
+.shopping span{
+    color: red;
+}*/
+/*.shopping a{
+    display: block;
+   width: 126px;height: 34px; 
+}
+.shopping a:hover{
+   background: url(../img/head_cart_bg.gif)no-repeat 0 -34px; 
+}*/
+
+
+/*----------nav---------*/
+/*.nav_head{
+	width: 100%;
+	height: 34px;
+	background: #a21f25;
+}
+.nav_head .nav{
+	width: 1000px;
+	height: 34px;
+	margin: 0 auto;
+}
+.nav ul li{
+	float: left;
+}
+.nav .nav1 li a{
+	margin-top: -7px;
+	display:inline-block;
+    float: left;
+    font-size: 14px;
+    padding: 0 18px;
+    line-height: 34px;
+    height: 34px;
+    text-decoration: none;
+    color: #FFF;
+    vertical-align:top;
+    background: url(../img/T29O1tXlXcXXXXXXXX_!!194959675.png)no-repeat 0 center;
+}
+.nav .nav1 #li8 li{
+    color: #FFF;
+    margin-top: -7px;
+    font-size: 14px;
+    padding: 0 18px;
+    line-height: 34px;
+    height: 34px;
+}
+.nav .nav1 #li8 li:hover{
+    cursor: pointer;
+	background: #444;
+    color: #FFF;
+    position: relative;
+    border-left: 1px solid #a21f25;
+    margin-left: -1px;
+}
+.nav .nav1 #li9 a{
+    background: url(../img/wx.gif)no-repeat;
+   width: 165px; 
+}
+.nav .nav1 #li9 a img{
+    display: none;
+    position: absolute; 
+}
+.nav .nav1 #li9 a:hover img{
+    margin-top: 34px;
+    z-index: 99;
+    display: block;
+}
+.nav .nav1 #li10{
+	float: right;
+    height: 34px;
+    position: relative;
+    margin-right: -60px;
+}
+.nav .nav1 #li10 a{
+	font-size: 12px;
+    padding: 0 10px;
+    color: #f6e9ea;
+    border-right: 1px solid #d18f92;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 4px;
+    float: left;
+}
+.nav .nav1 #li10 a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.nav .nav1 #li7 a{
+	margin-top: 0px;
+	float: left;
+    background: #b9363d;
+    width: 154px;
+    text-align: center;
+    font-weight: 700;
+}
+.nav .nav1 .secnav1{
+    height: 400px;
+    width: 468px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+    display: none;
+    padding: 8px 0 13px;
+    background:url(../img/587f37f8N689da5c7.jpg);
+}
+.nav .nav1 .secnav1 li{
+    display: block;
+    float: left;
+    width: 120px;
+    margin-top: 20px;
+}
+.nav .nav1 .secnav1 li h3{
+    color: #000;
+}
+.nav1 .secnav1 li a{
+    width: 100px;
+    margin-top: 0;
+    background: #fff;
+    display: block;
+    position: relative;
+    font-size: 12px;
+    line-height: 24px;
+    color: #555555;
+    text-decoration: none;  
+}
+.nav1 .secnav1 li a:hover{text-decoration: underline;}
+.nav  #li8 li:hover .secnav1{
+    display: block;
+}*/
+/*-----------------banner---------------------*/
+.wrapper .banner{
+    position: relative;
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+}
+.banner .img_list{
+    position: relative;
+    z-index: 0;
+}
+.banner .img_list li {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity:0);
+}
+.banner .img_list li:first-child{
+    z-index: 1;
+    opacity: 1;
+    filter: alpha(opacity:100);
+}
+.banner .dot{
+    left: 871px;
+    top: 515px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    z-index: 99;
+    background: #000;
+    padding: 9px 0 9px 13px;
+    border-radius: 9px;
+}
+.banner .dot a{
+    float: left;
+    transition: background .5s;
+    display: block;
+    width: 35px;
+    height: 4px;
+    text-indent: -99px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    background: #b3b3b3;
+    border-radius: 1px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+.banner .dot .active {
+    background: black;
+}
+
+/*----------------main------------------*/
+
+.wrapper .main{
+    width: 1190px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.main .mainfir{
+    margin: 10px auto 20px;
+    overflow: hidden;
+}
+.main .mainfir li{
+    float: left;
+    background: url(../img/587f37f8N7151064c.png);
+    margin: 0 8px 10px 0;
+    overflow: hidden;
+}
+.main .mainfir a{
+    display: block;
+    width: 120px;
+    height: 72px;
+    margin: 7px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-indent: -999px;
+    background: url(../img/TB27sUPc84lpuFjy1zjXXcAKpXa-156043745.png) no-repeat;
+}
+.main .mainfir .nike{
+    background-position: 0px 0px;
+}
+.main .mainfir .adidas{
+    background-position: 0px -72px;
+}
+.main .mainfir .syc{
+        background-position: -0px -144px;
+}
+.main .mainfir .neo{
+        background-position: -0px -216px;
+}
+.main .mainfir .nb{
+    background-position: -0px -288px;
+}
+.main .mainfir .converse{
+    background-position: -0px -360px;
+}
+.main .mainfir .skq{
+    background-position: -0px -432px;
+}
+.main .mainfir .puma{
+    background-position: -0px -504px;
+}
+.main .mainfir .reebok{
+        background-position: -242px 0px;
+}
+.main .mainfir .asics_ast{
+        background-position: -242px -72px;
+}
+.main .mainfir .kappa{
+        background-position: -242px -144px;
+}
+.main .mainfir .anta{
+        background-position: -242px -216px;
+}
+.main .mainfir .lining{
+    background-position: -242px -288px;
+}
+.main .mainfir .vans{
+        background-position: -242px -360px;
+}
+.main .mainfir .troead{
+    background-position: -242px -432px;
+}
+.main .mainfir .lantivy{
+        background-position: -242px -504px;
+}
+.main .mainfir .anta{
+        background-position: -242px -216px;
+}
+.main .mainfir .lining{
+    background-position: -242px -288px;
+}
+
+.main .mainfir a:hover{
+    background: url(../img/TB27sUPc84lpuFjy1zjXXcAKpXa-156043745.png) no-repeat;
+    background-color: #ccc;
+}
+.main .mainfir .nike:hover{
+    background-position: -121px 0px;
+}
+.main .mainfir .adidas:hover{
+    background-position: -121px -72px;
+}
+.main .mainfir .syc:hover{
+        background-position: -121px -144px;
+}
+.main .mainfir .neo:hover{
+        background-position: -121px -216px;
+}
+.main .mainfir .nb:hover{
+    background-position: -121px -288px;
+}
+.main .mainfir .converse:hover{
+    background-position: -121px -360px;
+}
+.main .mainfir .skq:hover{
+    background-position: -121px -432px;
+}
+.main .mainfir .puma:hover{
+    background-position: -121px -504px;
+}
+.main .mainfir .reebok:hover{
+        background-position: -363px 0px;
+}
+.main .mainfir .asics_ast:hover{
+        background-position: -363px -72px;
+}
+.main .mainfir .kappa:hover{
+        background-position: -363px -144px;
+}
+.main .mainfir .anta:hover{
+        background-position: -363px -216px;
+}
+.main .mainfir .lining:hover{
+    background-position: -363px -288px;
+}
+.main .mainfir .vans:hover{
+        background-position: -363px -360px;
+}
+.main .mainfir .troead:hover{
+    background-position: -363px -432px;
+}
+.main .mainfir .lantivy:hover{
+        background-position: -363px -504px;
+}
+.main .mainfir .anta:hover{
+        background-position: -363px -216px;
+}
+.main .mainfir .lining:hover{
+    background-position: -363px -288px;
+}
+
+/*----------------mainsec------------------*/
+/*.main .mainsec{
+    overflow: hidden;
+    margin: 0 auto;
+}
+/*.main .mainsec img{
+    position: absolute; 
+    width: 313px;
+    height: 282px;
+}*/
+/*.main .mainsec li{
+    width: 313px;
+    height: 282px;
+    float: left;
+    background: url(../img/587f37f8N2cc7e5d5.png);
+    z-index: 999;
+    margin: 0 20px 10px 0;
+}
+.main .mainsec a{
+    color: #fff;
+    width: 313px;height: 282px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.main .mainsec li .ad{
+   text-align: center; 
+   margin-top: 200px;
+}
+.main .mainsec li:hover .ad{
+   text-align: center; 
+   margin-top: 100px;
+   transition: 0.5s;
+}*/
+/*-----------------main2---------------------*/
+.main2{margin:0 auto;width: 1200px;height: 290px;margin-top: 12px}
+.main2 li{width: 230px;height: 290px;float: left;margin-right: 8.5px;}
+.main2 li a{display: block;width: 230px;height: 290px;border: 3px solid #fff;}
+.main2 li a:hover{border: 3px solid red;transition: all 0.3s linear;}
+/*.main2 #a22{background: url(../img/index_zj1.jpg) no-repeat;}
+.main2 #a23{background: url(../img/index_zj2.jpg) no-repeat;}
+.main2 #a24{background: url(../img/index_zj3.jpg) no-repeat;}
+.main2 #a25{background: url(../img/index_zj4.jpg) no-repeat;}
+.main2 #a26{background: url(../img/index_zj3.jpg) no-repeat;}*/
+/*.main3{margin:0 auto;width: 1200px;height: 436px;margin-top: 26px}
+.main3 .main31{float: left;width: 200px;height: 436px}
+.main31 li{width: 107px;height: 49px;border-bottom: 1px solid #d5d5d5;margin:0 auto;text-align: center;}
+
+.main3 .main32{float: left;background: url(../mxk/3.png) no-repeat;width: 395px;height: 426px;}
+.main3 .main33{float: left;width: 600px;height: 436px}
+.main3 .main33 li a{display: block;background: url(../mxk/5.png) no-repeat;float: left;}
+.main33 #a27{width: 297px;height: 250px;background-position: 0 0}
+.main33 #a28{width: 297px;height: 250px;background-position: -297px 0}
+.main33 #a29{width: 297px;height: 176px;background-position: 0 -250px}
+.main33 #a30{width: 297px;height: 176px;background-position: -297px -250px}*/
+.main4{width: 1200px;margin:0 auto;height: 426px;margin-top: 15px}
+.main4 .main41{float: left;width: 200px;height: 426px}
+.main4 .main41 li{width: 94px;height: 42px;float: left;}
+.main41 li a{display: block;background: url(../img/201409101646002.png) no-repeat;
+    float: left;width: 95px;height: 40px;overflow: hidden;border-right: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;margin: 0 -1px -1px 0;text-indent: -999px;}
+.main41 li a:hover{
+    text-indent: 0;
+    text-align: center;
+    line-height: 38px;
+    background: #666;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-color: #666;
+    text-decoration: none;
+    position: relative;}    
+.main41 #a31{background-position:0 0;}
+.main41 #a32{background-position:0 -152px;}
+.main41 #a33{background-position:0 -760px;}
+.main41 #a34{background-position:0 -798px;}
+.main41 #a35{background-position:0 -76px;}
+.main41 #a36{background-position:0 -1257px;}
+.main41 #a37{background-position:0 -228px;}
+.main41 #a38{background-position:0 -760px;}
+.main41 #a39{background-position:0 -798px;}
+.main41 #a40{background-position:0 -1257px;}
+.main41 #a41{background-position:0 -228px;}
+.main41 #a42{background-position:0 -76px;}
+.main4 .main42{width: 395px;height: 426px; background: url(../img/l1.jpg);float: left;margin-right: 5px;
+overflow: hidden;}
+.main42 a{display: block;width:395px;height: 426px; transition:all .2s linear;}
+.main42 a:hover{transform: translateX(-6px);}
+.main4 .main43{width: 600px;height: 426px;float: left;}
+.main43 ul{float: left;width: 600px;height: 426px}
+.main43 ul li{float: left;position: relative;overflow: hidden;}
+.main43 li a{display: block;float: left;overflow: hidden;transition:all .2s;}
+.main43 li a:hover{transform: translateX(-5px);}
+.main43 #a47{ width: 200px;height:245px;background: url(../img/l1-1.jpg)}
+.main43 #a48{ width: 200px;height:245px;background: url(../img/l1-1.jpg)}
+.main43 #a49{ width: 200px;height:245px;background: url(../img/l1-1.jpg)}
+.main43 #a50{width: 200px;height:182px;background: url(../img/l1-4.jpg)}
+.main43 #a51{width: 200px;height:182px;background: url(../img/l1-4.jpg)}
+.main43 #a52{width: 200px;height:182px;background: url(../img/l1-4.jpg)}
+.main44 a{
+    color: #3e3e3e;
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+    width: 95px;
+    height: 31px;
+    float: left;
+    background: #fff;
+}
+.main44 a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*----------------foot------------------*/
+/*.wrapper .foot{
+	width: 990px;
+	margin: 0 auto;
+}
+.foot .footbrand{
+	width: 990px;
+    background: rgba(29, 27, 27, 0);
+    overflow: hidden;
+    padding-bottom: 1px;
+    margin: 0 auto;
+    height: 142px;
+}
+.footbrand a{
+	border: 1px solid #DFDFDF;
+    display: block;
+    float: left;
+    height: 70px;
+    margin: 0 -2px -1px 0;
+    overflow: hidden;
+    position: relative;
+    text-indent: -999px;
+    width: 98px;
+    background: url(../img/default_brandwall_bg11.png) no-repeat;
+}
+.footbrand a:hover{ background-color: rgba(29, 27, 27, 0.3);}
+.footbrand .nike{
+	background-position: 21px -176px;
+}
+.footbrand .adidas{
+	background-position: -106px -176px;
+}
+.footbrand .syc{
+	    background-position: -715px -333px;
+}
+.footbrand .neo{
+	    background-position: -838px -333px;
+}
+.footbrand .nb{
+	background-position: -590px -176px;
+}
+.footbrand .converse{
+	background-position: -596px -10px;
+}
+.footbrand .skq{
+	background-position: -591px -258px;
+}
+.footbrand .puma{
+	background-position: -835px -176px;
+}
+.footbrand .reebok{
+	    background-position: -719px -10px;
+}
+.footbrand .asics_ast{
+	    background-position: -467px -330px;
+}
+.footbrand .kappa{
+	    background-position: -715px -176px;
+}
+.footbrand .anta{
+	    background-position: -347px -176px;
+}
+.footbrand .lining{
+	background-position: -230px -176px;
+}
+.footbrand .vans{
+	    background-position: -105px -256px;
+}
+.footbrand .troead{
+	background-position: -593px -332px;
+}
+.footbrand .lantivy{
+	    background-position: -346px -100px;
+}
+.footbrand .dc{
+	background-position: -595px -491px;
+}
+.footbrand .nike_tx{
+	background-position: -229px -491px;
+}
+.footbrand .adidas_tx{
+	background-position: -350px -491px;
+}
+.footbrand .disney_last{
+	    background-position: -104px -490px;
+}
+.foot .spfl{
+	height: 36px;
+    width: 990px;
+    margin: 0 auto 28px;
+    clear: both;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.foot .spfl h3{
+	font-size: 18px;
+    position: absolute;
+    left: 50%;
+    margin: 12px 0 0 -60px;
+    background: #fff;
+    padding: 10px 20px;
+    font-weight: 100;
+}
+.foot .flmid{
+	width: 990px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.foot .flmid dl{
+	width: 245px;
+    float: left;
+    padding-right: 2px;
+}
+.foot .flmid dt{
+	text-align: center;
+}
+.foot .flmid dd{
+	border-right: 1px dotted #ccc;
+    height: 85px;
+    overflow: hidden;
+    padding: 0 10px 0 15px;
+}
+.foot .flmid dd a{
+	color: #555;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    width: 54px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.foot .flmid dd a:hover{
+    text-decoration: underline;
+}
+.foot .flbot{
+	height: 50px;*/
+}
+/*---------------bot------------------*/
+/*.wrapper .bot{
+	border-top: 2px solid #ce3c3b;
+    background: #f8f8f8;
+}
+.bot .bot1{
+	padding: 15px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e8e8e8;
+}
+.bot .bot1 .bot1_row{
+	width: 990px;
+	height: 226px;
+	margin: 0 auto;
+}
+.bot .bot1 .bot1_rowl{
+	height: 195px;
+    width: 220px;
+    border-right: 1px solid #dedede;
+    float: left;
+    position: relative;
+}
+.bot .bot1 .bot1_rowr{
+	border-left: 1px solid #fff;
+    height: 195px;
+    padding-left: 40px;
+    float: left;
+    line-height: 1.6em;
+}
+.bot .bot1 .bot1_rowr h6{
+	display: block;
+    height: 36px;
+    margin: 5px 0 25px;
+}
+.bot .bot1 .bot1_rowr h5{
+	display: block;
+    margin: 0 0 6px;
+    font-size: 14px;
+    color: #666;
+}
+.bot .bot1 .bot1_rowr .c999 a{
+	color: #999;
+}
+.bot1 .bot1_rowr li{
+	display: block;
+    width: 179px;
+    float: left;
+}
+.bot .bot1 .bot1_rowr li #lilast{
+
+    width: 156px;
+}
+.bot2 .bot2_row {
+	text-align: center;
+    padding: 20px 0;
+}
+.bot2 .bot2_row i{
+	font-size: 20px;
+    color: #c00;
+    font-weight: 700;
+}
+.bot2 .bot2_row a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.bot3 {
+	width: 480px;
+	display: block;
+	margin: 0 auto 30px;
+}*/

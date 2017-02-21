@@ -1,0 +1,368 @@
+.wrapper .mtop{
+	width: 990px;
+	margin: 0 auto;	
+	background: #fafafa;
+}
+/*.mtop div{
+    clear: both;
+}*/
+.mtop .mtop1{
+	padding: 10px 0;
+    font-family: '宋体';
+    color: #999;
+}
+.mtop .mtop2{
+	border: 1px solid #e5e5e5;
+    background: #f1f1f1;
+    padding-left: 1em;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+}
+.mtop2 p{
+	display: inline-block;
+    height: 30px;
+    padding: 0 30px 0 0;
+    margin: 0;
+    float: left;
+    background: url(../img/list_icon.png) no-repeat right 0;
+}
+.mtop2 span{
+	color: #999;
+    font-size: 12px;
+    font-weight: normal;
+}
+.mtop3{
+	padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+    margin-bottom: -1px;
+}
+.mtop3 a{
+	color: #c00;
+    border: 1px solid #c00;
+    border-radius: 2px;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    padding: 2px 19px 2px 4px;
+}
+.mtop3 h5{
+	display: inline-block;
+}
+.mtop3 a:hover{
+	text-decoration: none;
+    color: #555;
+    border-color: #ccc;
+}
+.mtop3 a i{
+	display: block;
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    height: 13px;
+    width: 13px;
+    overflow: hidden;
+	background:#c00 url(../img/list_icon.png)no-repeat 0 -43px;
+}
+.mtop3 a:hover i{
+	background:#555 url(../img/list_icon.png)no-repeat 0 -43px;
+}
+.mtop3 .rechose{
+	color: #555;
+	padding: 0 0 0 15px;
+    border: 0;
+    margin-left: 7px;
+    background: url(../img/list_icon.png)no-repeat 0 -137px;
+}
+.mtop3 .rechose:hover{
+	background: url(../img/list_icon.png)no-repeat 0 -66px;
+}
+.mtop4{
+	position: relative;
+	width: 100%;
+}
+.mtop4 span{
+	display: block;
+    width: 65px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    text-align: right;
+    color: #888;
+}
+.mtop4 ul{
+	float: left;
+	display: block;
+    padding: 12px 110px 4px 70px;
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    white-space: nowrap;
+    zoom: 1;
+}
+.mtop4 button{
+	position: absolute;
+    top: 11px;
+    right: 58px;
+    color: #666;
+    line-height: 16px;
+    padding: 0 5px 0 20px;
+    background: #eee url(../img/list_icon.png) no-repeat 5px -364px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.mtop4 ul li{
+	float: left;
+	background: url(../img/skin_201201.png) no-repeat -284px -119px;
+    height: 42px;
+    margin: 0 25px 0 0;
+    overflow: hidden;
+    width: 85px;
+}
+.mtop4 ul li a{
+	height: 32px;
+    float: left;
+    width: 57px;
+    margin: 0;
+    line-height: 8;
+    overflow: hidden;
+    background: url(http://images2.s.cn/images/scn2012/skin/skin_201201.png) no-repeat -5px -422px;
+}
+.mtop5{
+	border-bottom: 1px dotted #ccc;
+}
+.mtop5 div{
+	padding-top: 12px;
+	float: left;
+}
+.mtop5 div ul li {
+	float: left ;
+	width: 110px;
+	height: 23px;
+}
+.mtop5 div ul li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.mtop6 {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+    border-bottom: 1px dotted #ccc;
+    border-top: 1px dotted #ccc;
+    position: relative;
+}
+.mtop6 div{
+	float: left;
+}
+.mtop7{
+    display: none;
+    border-bottom: 1px dotted #ccc;
+}
+.mtop7 div{
+    padding-top: 12px;
+    float: left;
+}
+.mtop7 div ul li {
+    float: left ;
+    width: 110px;
+    height: 23px;
+}
+.mtop7 div ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#btn1{
+	display: block;
+    width: 98px;
+    height: 34px;
+    padding-right: 10px;
+    line-height: 28px;
+    color: #999;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -1px;
+    background: url(../img/c_o_icon.png) no-repeat;
+}
+#btn1:hover{
+	background-position: 0 0;
+    color: #555;
+}
+#btn1:active .mtop7{
+    display: block;
+}
+
+
+.wrapper .mid{
+	width: 990px;
+	margin: 0 auto;
+}
+.mid .mid1{
+	border: 1px solid #dbdbdb;
+    border-top-width: 4px;
+    background: #f7f7f7;
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+    padding: 0 5px 0 10px;
+}
+.mid1 
+.mid1 a{
+	display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #666;
+    border-radius: 2px;
+    background: #ccc url(../img/list_icon.png) no-repeat 34px -159px;
+    margin: 8px 6px 0 3px;
+    padding: 0 16px 0 7px;
+    text-decoration: none;
+}
+.mid1 p{
+	float: right;
+}
+.mid .mid2 dl{
+	float: left;
+	overflow: hidden;
+	margin: 20px 11px 10px;
+	width: 220px;
+    border: 1px solid #eee;
+    height: 322px;
+}
+.mid .mid2 dt{
+	height: 244px;
+    border: 0;
+    padding: 4px;
+    position: relative;
+}
+.mid .mid2 dt ul{
+	padding: 3px 0 2px 26px;
+}
+.mid .mid2 dt li{
+	margin-right: 5px;
+	float: left;
+    width: 29px;
+    height: 29px;
+    text-align: left;
+}
+.mid2 dt li a{
+	cursor: pointer;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+.mid2 dt li a:hover{
+    border: 1px solid red;
+}
+.mid2 dt li img{
+	width: 25px;
+	height: 25px;
+}
+.mid2 dt ul .prev{
+	display: block;
+    position: absolute;
+    width: 20px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    cursor: pointer;
+    left: 2px;
+}
+.mid2 dt ul .next{
+	display: block;
+    position: absolute;
+    width: 20px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    cursor: pointer;
+        left: 196px;
+}
+.mid2 dd ul{
+	overflow: hidden;
+	/*height: 95px;*/
+    width: 205px;
+    padding: 5px 5px 5px 10px;
+}
+.mid2 dd ul li{
+	display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+ dd .r4{
+	display: block;
+    color: #555;
+    padding: 5px 0;
+    height: 40px;
+}
+/*dd a:hover .r4{
+	display: block;
+}*/
+dl:hover dd ul{
+	z-index: 99;
+	background: #f0f0f0;
+	height:9
+    5px; 
+	transition: all 0.3s linear;
+	position: absolute;
+}
+dl:hover{
+	background: #f0f0f0;
+}
+.mid2 dd li .delprice{
+	color: #888;
+    text-decoration: line-through;
+    padding-left: 0.8em;
+}
+dd s{
+	color: #f60;
+    font-weight: 700;
+    padding: 0 3px;
+    text-decoration: none;
+}
+.mid3 .m31{
+	border-top: 1px dotted #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.mid3 .m31 form{
+	float: right;
+}
+.mid3 .m31 form button{
+	display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #888;
+    margin-left: 2px;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    border-color: #666666;
+    background: #fff;
+}
+.mid3 .m31 form button:hover{
+	border-color: red;
+	color: #000;
+	cursor: pointer;
+}
+.mid4{
+	height: 30px;
+	width: 100%;
+}
+

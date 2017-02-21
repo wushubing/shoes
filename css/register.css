@@ -1,0 +1,140 @@
+@charset "utf-8";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0; padding:0;}
+body{font-size:12px;font-family: 'microsoft YaHei';}
+img{border:none;}
+li{list-style: none;}
+input,select,textarea{border: none;background: none;}
+textarea{resize: none;}
+a{text-decoration: none;color: #656565;}
+
+.wrapper{
+	width: 100%;
+}
+.wrapper .head{
+	width: 990px;
+	margin: 20px auto;	
+}
+.head .logo{
+	padding-top: 10px; 
+}
+.blank{
+	clear: both;
+}
+.head .hbot{
+	width: 790px;
+	margin: 0 auto;
+}
+.hbot a{
+	float: right;
+}
+.hbot a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.wrapper .main{
+	width: 790px;
+	margin: 10px auto;
+	padding: 0;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    box-shadow: 0 0 8px #E5E5E5;
+
+
+}
+.main .title{
+	font-size: 16px;
+    color: #888;
+    background: #f8f8f8;
+    padding: 4px 10px;
+    border-bottom: 1px solid #efefef;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+
+}
+.main form{
+	background: url(../img/signup.jpg)no-repeat ;
+	background-position: 0 ;
+	width: 100%;
+}
+form .formr{
+	float: left;
+	width: 64%;
+}
+.formr a{
+	text-decoration: underline;
+	color: blue;
+}
+.formr .content{
+	padding: 40px 0 80px 80px;
+	
+}
+.formr input{
+	height: 22px;
+	margin-top: 15px;
+	width: 220px;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    color: #aaa;
+}
+/*.formr input:hover{
+	border:2px solid #A5C7FE;
+}*/
+.formr span{
+	display: inline-block;
+	text-align: right;
+    color: #666;
+    width: 75px;
+    padding: 0;
+}
+.formr button{
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff; 
+	width: 89px;height: 38px;
+	background: url(../img/scn04.png)no-repeat 0 -198px;
+	border: none;
+}
+form .forml{
+	height: 300px;
+	text-align: center;
+	margin-top:50px; 
+	float: left;
+	width: 35%;
+	border-left: 1px dashed #ccc;
+}
+.forml p{
+	margin-top: 80px;
+	font-weight: bold;
+} 
+.forml button{
+	cursor: pointer;
+	width: 91px;
+	height: 32px;
+	background: url(../img/loginbg.png);
+	color: #c66;
+	font-weight: bold;
+	border: none;
+	margin-top: 10px;
+}
+
+
+
+
+.foot{
+	width: 990px;
+	margin: 30px auto;
+	border-top: 2px solid #CE3C3B;
+}
+.bot2 .bot2_row {
+	text-align: center;
+    padding: 20px 0;
+}
+.bot2 .bot2_row i{
+	font-size: 20px;
+    color: #c00;
+    font-weight: 700;
+}
+.bot2 .bot2_row a:hover{
+	text-decoration: underline;
+	color: red;
+}

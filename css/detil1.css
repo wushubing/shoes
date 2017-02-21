@@ -1,0 +1,903 @@
+.wrapper .main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main .main1{
+    padding: 10px 0;
+    font-family: '宋体';
+    color: #999;
+}
+.main1 span{
+    margin-right: 5px;
+}
+.main2 table #top{
+    border: 1px solid #f0f0f0;
+    margin: 0 15px 7px 0;
+    width: 432px;
+    height: 432px;
+}
+
+.main2 table #list a{
+    display: block;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    outline: 0;
+}
+.main2 table #list li:hover {border-color:orange; }
+.main2 table #list li{
+    margin-top: 6px;
+    border: 1px solid #888;
+    margin-right: 5px;
+    float: left;
+    width: 47px;
+}
+.main2 table #list img{
+    width: 41px;
+    height: 33px;
+}
+.main2 table #right {
+    position: absolute;
+    top: 0;
+    left: 380px;
+    display: none;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+.main2 table #bigimg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 700px;
+    height: 700px;
+}
+
+
+
+
+.main2 .share{
+    margin: 20px 20px 0 0;
+    background: url(../img/detil/pro_detial_icon1.png) repeat-x 0 -38px;
+    height: 30px;
+}
+.main2 .share span{
+    float: left;
+}
+.main2 .share a{
+    color: #666;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px 0 20px;
+    background: url(../img/detil/share.png)no-repeat 0 -64px;
+}
+.main2 .tabler h1{
+    float: left;
+    margin: 0;
+    font-size: 14px;
+    width: 435px;
+    line-height: 50px;
+    height: 50px;
+    padding: 10px 0;
+    
+}
+.main2 .tabler span{
+    margin-top:20px; 
+    float: right;
+}
+.main2 .tabler span a{
+    color: #f60;
+}
+.main2 .table #title{
+    height: 50px;
+    border-bottom: 1px dashed #888;
+}
+.main2 .blank1{
+    margin: 5px 0;
+    height: 1px;
+    overflow: hidden;
+    clear: both;
+    background: url(../img/detil/pro_detial_icon1.png) repeat-x;
+}
+.main2 .pricelist ul{
+    overflow: hidden;
+    margin: 8px 5px 10px;
+    display: block;
+}
+.main2 .pricelist span{
+    margin: 0;
+    float: left;
+}
+.main2 .pricelist li{
+    color: #666;
+    display: block;
+    line-height: 25px;
+}
+.main .pricelist #big{
+    color: #d00;
+    font-size: 18px;
+    font-weight: 700;
+}
+.main2 .pricelist i{
+    display: inline-block;
+    width: 60px;
+    height: 11px;
+    overflow: hidden;
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat -99px -190px;
+}
+.main2 .cxxx{
+    margin: 10px 0 5px;
+    clear: both;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    background-color: #ffe9e9;
+}
+.main2 .cxxx div{
+    float: left;
+}
+.main2 .cxxx1{
+    height: 20px;
+    padding: 0 5px;
+    text-align: center;
+    border-right: 2px solid #fff;
+    float: left;
+    color: #fff;
+    background: #ff9090;
+}
+.main2 .cxxx2{
+    padding: 0 5px;
+    height: 20px;
+    color: #fe6464;
+    float: left;
+    white-space: nowrap;
+}
+.main2 .tabler{
+    padding-top: 0;
+}
+.main2 .tablerl1{
+    background: #f5f5f5;
+    padding: 7px 2px;
+}
+.main2 .tablerl1 th{
+    padding: 3px 0;
+    width: 75px;
+    line-height: 15px;
+}
+.main2 .tablerl1 span{margin: 0;}
+.main2 .tablerl1 td i{
+    display: block;
+    position: relative;
+    background: #fff;
+    padding: 4px 6px;
+    border: 1px #ccc solid;
+}
+.main2 .tablerl1 td i:hover{
+    border: 1px #f90 solid;
+}
+.main2 .tablerl1 td{
+    width: 464px;
+    padding: 3px 0;
+}
+.main2 .tablerl1 td li{
+/*  width: 38px;
+    height: 25px;*/
+    float: left;
+    margin: 3px;
+}
+
+
+
+.wrapper .buynav{
+    display: none;
+    background: #f0f0f0;
+    border-top: 1px solid #e5e5e5;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 17888;
+}
+.buynav .con{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    clear: left;
+    overflow: hidden;
+}
+.con em{
+    margin-top: 5px;
+    color: #000;
+    float: left;
+}
+.con .con1{
+    margin-top: 5px;
+    width: 500px;
+}
+.con .con1 li{
+    color: #000;
+    float: left;
+    margin-right: 10px;
+    width: 28px;
+    height: 25px;
+}
+.con .con1 i{
+    display: block;
+    padding: 3px 5px;
+    border-width: 2px;
+    border-color: #f90;
+    background: #fff;
+}
+.con .con2{
+    margin-top: 5px;
+    right: 150px;
+    top: 7px;
+    width: 200px;
+    color: #333;
+}
+.con button{
+    border: none;
+    float: left;
+    right: 5px;
+    top: 3px;
+    width: 135px;
+    height: 35px;
+    background: url('../img/botn_buy_bg.png') no-repeat;
+}
+.con2 .sss1{
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat no-repeat 0 -301px;
+}
+.con2 .sss2{
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat no-repeat -16px -301px;
+}
+.con div{
+    float: left;
+}
+.con .con2 input{
+    border: 1px solid #e0e0e0;
+    height: 16px;
+    width: 26px;
+    line-height: 16px;
+    text-align: center;
+    margin: 3px;
+    float: left;
+    font-family: arial;
+    color: #555;
+    font-size: 12px;
+}
+.con .con2 s{
+    float: left;
+    display: inline-block;
+    line-height: 15px;
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 6px 3px;
+    border: 1px solid #888;
+}
+
+
+
+
+
+
+
+
+
+
+.main2 .tablerl1 tr{
+    clear: left;
+    overflow: hidden;
+}
+.main2 .tablerl1 li img{
+    width: 34px;
+    height: 34px;
+    padding: 1px;
+    border: 1px solid #ccc;
+   /* border: 2px solid #f90;*/
+}
+.tablerl1 td input{
+    border: 1px solid #e0e0e0;
+    height: 16px;
+    width: 26px;
+    line-height: 16px;
+    text-align: center;
+    margin: 3px;
+    float: left;
+    font-family: arial;
+    color: #555;
+    font-size: 12px;
+}
+.tablerl1 td s{
+    float: left;
+    display: inline-block;
+    line-height: 15px;
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 6px 3px;
+    border: 1px solid #888;
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat;
+}
+.tablerl1 td .sss1{
+    background-position: 0 -301px;
+}
+.tablerl1 td .sss2{
+    background-position: -16px -301px;
+}
+.tablerl1 tr button{
+    float: right;
+    display: block;
+    width: 95px;
+    height: 25px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat 0 -207px;
+    cursor: pointer;
+    border: none;
+}
+
+.tablerl2 s{
+    margin-top: 10px;
+    float: left;
+}
+.tablerl2 s em{
+    color: red;
+}
+.tablerl2 .sub2{
+    width: 315px;
+    right: 5px;
+    height: 46px;
+    position: absolute;
+    bottom: 5px;
+    text-align: right;
+    vertical-align: bottom;
+    float: left;
+}
+.main2 .tablerl2{
+    height: 58px;
+    position: relative;
+}
+
+.tablerl2 input[name=buynow]{
+    text-indent: -66666px;
+    float: left;
+    width: 137px;
+    height: 44px;
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat -1px -447px;
+}
+.tablerl2 input[name=buylate]{
+    text-indent: -66666px;
+    width: 171px;
+    height: 44px;
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat -1px -124px;
+    float: right;
+}
+.main2 .tablerl3{
+    clear: both;
+    background: url(../img/detil/pro_detial_icon1.png) repeat-x 0 -65px;
+    padding: 10px 0;
+    color: #777;
+}
+.main2 .tablerl4{
+    clear: both;
+    background: url(../img/detil/pro_detial_icon1.png) repeat-x 0 -65px;
+    padding: 10px 0;
+    color: #777;
+}
+.main2 .tablerl3 s{
+    margin-right: 48px;
+    text-decoration: none;
+}
+.main2 .tablerl4 s{
+    margin-right: 48px;
+    text-decoration: none;
+}
+
+
+
+.main3 .sel{
+    background: url(../img/detil/tabsepbg.gif) repeat-x scroll 0 5px;
+    height: 38px;
+    margin: 30px 0 0 0;
+    padding-left: 5px;
+    overflow: visible;
+}
+.sel div{
+    float: left;
+    background: url(../img/detil/scn_p_tab_bg.gif) repeat-x;
+    line-height: 21px;
+    padding: 7px 15px 0 15px;
+    width: auto;
+    border: 1px solid #c0c0c0;
+    border-bottom: 0;
+    margin: 0 3px;
+}
+.sel div:hover{cursor: pointer;}
+.sel .active{
+    background: #fff none;
+    border: 1px solid #c0c0c0;
+    border-bottom: 0;
+    width: auto;
+    border-top-width: 3px;
+    padding: 4px 15px 3px 15px;
+    color: #333;
+
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    position: relative;
+    margin-bottom: -4px;
+    margin-top: -8px;
+}
+.goodsdetil .gd2 li{
+    float: left;
+    width: 185px;
+    color: #676767;
+    margin: 3px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+}
+.goodsdetil .gd3{
+    padding: 5px 10px;
+}
+.goodsdetil .nikeman{
+    margin-bottom: 10px;
+}
+.goodsdetil .mmm{
+    margin: 10px auto;
+}
+.gd4 .gd41{
+    margin: 5px;
+    padding: 10px;
+    background: #a4c917;
+}
+.gd4 .gd42{
+    line-height: 150%;
+    background-color: #ececec;
+    color: #333333;
+    font-size: 12px;
+    padding: 10px;
+}
+.gd4 table{
+    display: table;
+    border-collapse: separate;   
+}
+.gd4 .pro12{
+    padding: 5px 10px;
+}
+.gd5 .gkpl{
+    background: #f5f5f5;
+    border: 1px solid #e1e1e1;
+    border-bottom: 0;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 10px;
+}
+.gd5 .gkpl0{
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.gd5 .gkpl1{
+    width: 630px;
+    height: 65px;
+    padding: 12px 10px 0 30px;
+    border-right: 1px solid #eee;
+    float: left;
+    color: #999;
+}
+.gd5 .gkpl2{
+    padding: 8px 0 0 50px;
+    color: #777;
+    float: left;
+}
+.gd5 .gkpl3{
+    width: 89px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    background: url(../img/detil/scn04.png) no-repeat 0 -198px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px 8px 0 0;
+    float: left;
+}
+.gd5 .gkpl4{
+    float: left;
+    display: block;
+    background: url(../img/detil/scn_g.gif) repeat-x 0 15px;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    color: #555;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 8px 0 0;
+}
+.gd5 .gd51{
+    margin: 5px 0;
+    padding: 7px; 
+    border: 1px solid #e0e0e0;
+}
+.gd5 .gd52{
+    background: #F5F4EC;
+    border: 1px solid #E5DDC7;
+    padding: 7px;
+}
+.gd6 .gd61{
+    background: #F5F4EC;
+    border: 1px solid #E5DDC7;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 10px;
+}
+.gd6 table{
+    padding: 4px;
+    word-break: break-word;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+}
+.gd6 .gd62{
+    width: 100%;
+    background: url(../img/detil/scn_g.gif) repeat-x;
+    margin: 0;
+    height: 31px;
+    line-height: 31px;
+    text-indent: 10px;
+}
+.gd6 .box5{
+    height: 5px;
+    clear: both;
+    overflow: hidden;
+}
+.gd62 .gd63{
+    float: right;
+    padding: 4px 10px 0;
+}
+.gd62 .gd63 a{
+    display: inline-block;
+    width: 84px;
+    height: 23px;
+    line-height: 10em;
+    overflow: hidden;
+    background: url(../img/detil/pro_detial_icon1.png) no-repeat -98px -220px;
+}
+.gd7{
+    padding: 7px;
+    margin: 5px 0;
+    border: 1px solid #888;
+    border-top: none;
+}
+.gd71{
+    background: #fffaee;
+    border: 0;
+    padding: 7px;
+    margin-bottom: 7px;
+}
+.gd72{
+    line-height: 28px;
+    padding: 10px 10px 10px 15px;
+    border-radius: 4px;
+    background: #ffefd0;
+    margin-bottom: -5px;
+}
+.gd72 span{
+    margin-right: 20px;
+    float: right;
+}
+.gd73{
+    padding: 10px 30px 10px 0;
+    margin-bottom: 5px;
+    border-radius: 0 0 4px 4px;
+    background: #fffaee;
+}
+.gd73 i{
+    padding-right: 15px;
+}
+.gd74{
+    padding: 5px 10px 0;
+    background: #fff;
+    line-height: 27px;
+}
+.gd74 i{
+    font-weight: 700;
+    padding-left: 47px;
+    margin-right: 5px;
+}
+.gd74 b{
+    width: 475px;
+    border: none;
+    background: transparent url(../img/arrow_6.gif) no-repeat 0 50%;
+    padding: 3px 5px 3px 15px;
+}
+.gd75{
+        padding: 5px 10px 0;
+        background: #fff;
+        margin-bottom: 7px;
+}
+.gd75 th{
+    font-size: 12px;
+    width: 85px;
+    padding: 0;
+    font-weight: 700;
+    color: #333;
+    text-align: right;
+    vertical-align: top;
+}
+.gd75 td{
+    vertical-align: top;
+    padding: 5px;
+}
+.gd75 textarea{
+    display: block;
+    font-size: 12px;
+    line-height: 1.6em;
+    color: #999;
+}
+.gd75 .gd75btn{
+    float: left;
+    background: url(../img/detil/scn04.png) no-repeat 0 -142px;
+    width: 74px;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+}
+.gd75 td i{
+    text-align: left;
+    margin-left: 30px;
+}
+.gd75 .gd76{
+    height: 50px;
+}
+
+
+.gd8{
+    width: 990px;
+    background: #fff;
+    margin: 12px auto 0;
+    clear: both;
+}
+.gd8 .gd81{
+    border-bottom: 1px dashed #ccc;
+    color: #666;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-indent: 3px;
+}
+.gd8 a{
+    display: block;
+    float: left;
+    line-height: 20px;
+    margin-right: 4px;
+}
+.gd9{
+    height: 10px;
+    clear: both;
+    overflow: hidden;
+}
+.main4 .panel{
+    display: none;
+}
+.main4 .active{
+    display: block;
+}
+
+
+
+
+
+
+
+.sidebar{
+    position: fixed;
+    width: 37px;
+    height: 100%;
+    overflow: visible;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    background: #000;
+}
+.sidebar .sb11{
+    position: relative;
+    width: 41px;
+    height: 157px;
+    background-color: #bd0000;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-left-radius: 2px;
+    top: 0;
+    left: -4px;
+    cursor: pointer;
+}
+.sb11 .logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 7px 14px;
+}
+.sb11 .tt{
+    padding: 0 3px;
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    top: 48px;
+    left: 6px;
+    color: #fff;
+}
+.sb12{
+    position: relative;
+    left: 0;
+    width: 37px;
+    height: 35px;
+    background-color: #000;
+    cursor: pointer;
+    z-index: 9;
+    height: 122px;
+    margin-top: 23px;
+}
+.sb12 a{
+    display: block;
+    height: 122px;
+}
+.sb12 a:hover{
+    background-color:#bd0000; 
+}
+.sb12 .log{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 6px -29px;
+}
+.sb12 .tt{
+    display: block;
+    left: 8px;
+    top: 40px;
+    width: 20px;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+}
+.sb13 .logo{
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 6px -77px;
+    background-color: black;
+    border-top: 1px solid #fff;
+    cursor: pointer;
+}
+.sb14 .logo{
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 10px -119px;
+    background-color: black;
+    padding: 8px auto;
+    cursor: pointer;
+}
+.sb15 .logo{
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 6px -164px;
+    background-color: black;
+    padding: 8px auto;
+    cursor: pointer;
+}
+.sb16{
+    margin-top: 90px;
+    cursor: pointer;
+}
+.sb16 .logo{
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 7px -218px;
+    background-color: black;
+    padding: 8px auto;
+}
+.sb17 .logo{
+    cursor: pointer;
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 8px -273px;
+    background-color: black;
+    padding: 8px auto;
+}
+.sb18 a{
+    height: 35px;  
+}
+.sb18 .logo{
+    cursor: pointer;
+    width: 37px;
+    height: 35px;
+    background: url(../img/rbar_icon.png) no-repeat;
+    background-position: 7px -324px;
+    background-color: black;
+    padding: 8px auto;
+}
+.sidebar a{
+    display: block;
+}
+.sidebar a:hover .logo{
+    background-color: red;
+
+}
+.sidebar a:hover .tip{
+    display: block;
+}
+.sidebar .tip{
+    display: none; 
+    position: absolute;
+    font-size: 12px;
+    right: 47px;
+    width: 90px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #494949;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.2);
+    border-radius: 2px;
+    transform: translateX(-10px);
+    transition: all 0.3s linear;
+}
+.sidebar .squre{
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    color: #494949;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+.sb17 ul s{
+    display: block;
+    float: left;
+    margin: 3px 5px 3px 0;
+    padding: 3px;
+    width: 78px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #464646;
+    color: #FFF;
+    list-style: none;
+}
