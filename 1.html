@@ -1,0 +1,160 @@
+<!-- <ul class="lv15_cats clfix"> 
+<li> 
+<h4>运动鞋</h4> 
+<p><a>休闲鞋</a><br> 
+<a >板鞋</a><br>
+<a>跑步鞋</a>
+<br> <a >帆布鞋</a><br> 
+<a>拖鞋</a><br> 
+<a>网球鞋</a>
+</p> 
+<a>健步鞋</a><br> 
+</li> 
+<li> 
+<h4>服装</h4> 
+<p> <a>短袖T恤</a><br> 
+<a >短袖POLO</a><br> 
+<a>紧身裤</a><br> 
+<a>胸衣</a><br>
+<a>运动长裤</a><br>
+<a>运动短裤</a><br>
+<a>运动裙</a><br> 
+<a>卫衣</a><br> 
+<a>外套</a><br> 
+</p> 
+</li> 
+<li class="brands clfix"> 
+<h4>品牌推荐</h4> 
+<a><img src="../img/nike.jpg"></a>
+<a><img src="../img/adi.jpg"></a>
+<a><img src="../img/neo.jpg"></a>
+<a><img src="../img/syc.jpg"></a>
+<a><img src="../img/nb.jpg"></a>
+<a ><img src="../img/skq1.jpg"></a>
+<a><img src="../img/puma.jpg"></a>
+<a><img src="../img/kw.jpg"></a>
+<a><img src="../img/dc.png"></a>
+<a><img src="../img/vans.jpg"></a>
+<a><img src="../img/asics.jpg"></a>
+<a><img src="../img/rb.jpg"></a>
+<a><img src="../img/ln.jpg"></a>
+<a><img src="../img/anta.jpg"></a>
+</li>
+ </ul> -->
+
+
+
+
+<!-- <HTML>  
+<HEAD>  
+    <TITLE>生成验证码</TITLE> 
+    <meta charset="utf-8"> 
+    <SCRIPT LANGUAGE="JavaScript">  
+        function createCode(len)  
+        {  
+            var seed = new Array(  
+                    'abcdefghijklmnopqrstuvwxyz',  
+                    'ABCDEFGHIJKLMNOPQRSTUVWXYZ',  
+                    '0123456789'  
+            );               //创建需要的数据数组  
+            var idx,i;  
+            var result = '';   //返回的结果变量  
+            for (i=0; i<len; i++) //根据指定的长度  
+            {  
+                idx = Math.floor(Math.random()*3); //获得随机数据的整数部分-获取一个随机整数  
+                result += seed[idx].substr(Math.floor(Math.random()*(seed[idx].length)), 1);//根据随机数获取数据中一个值  
+            }  
+            return result; //返回随机结果  
+        }  
+  
+        function test() {  
+            var inputRandom=document.getElementById("inputRandom").value;  
+            var autoRandom=document.getElementById("autoRandom").innerHTML;  
+            if(inputRandom==autoRandom) {  
+                alert("通过验证");  
+            } else {  
+                alert("没有通过验证");  
+            }  
+  
+        }  
+    </SCRIPT>  
+</HEAD>  
+<BODY>  
+验证码长度：  
+<SELECT id="sel">  
+    <option value=1>1</option>  
+    <option value=3>3</option>  
+    <option value=5>5</option>  
+    <option value=7 selected>7</option>  
+    <option value=9>9</option>  
+</SELECT>  
+<BR>  
+<table>  
+    <tr>  
+        <td>验证码：</td>  
+        <td><input type="text" id="inputRandom"></td>  
+        <td><label id="autoRandom" value=""></label><INPUT TYPE="button" VALUE="获取验证码" ONCLICK="autoRandom.innerHTML=createCode(sel.value)"></td>  
+        <td><input type="button" value="验证" onclick="test()"></td>  
+    </tr>  
+  
+</table>  
+<script type="text/javascript">  
+    window.onload()=autoRandom.innerHTML=createCode(sel.value);  
+</script>  
+</BODY>  
+</HTML>   -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="common.js"></script>
+ <script type="text/javascript" src="jquery-1.6.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="password">
+        <ul>
+          <li>
+            <span>当前密码:</span>
+            <span>
+              <input type="password" name="old_pass" value="" />
+            </span>
+          </li>
+          <li>
+          <span>新密码:</span> 
+          <span>
+            <input type="password" id="newpassword" name="ver_pass" value="" onKeyUp="javascript:AuthPasswd();"/>
+          </span></li>
+          <li>
+            <span>新密码确认:</span>
+            <span>
+              <input type="password" name="old_pass" value="" />
+            </span>
+    <span>
+               <div id="xxx">
+      <span>密码强度:</span>
+      <div id="weak" style="width:20%"> 
+        <div id="middle"   style="width:20%"> 
+      <div id="strength"  width="20%"></div>
+      </div>
+      </div>
+      </div>
+            </span>
+          </li>
+          <li>
+            <span>
+              <input type="button" value="提交" />
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
